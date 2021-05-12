@@ -28,8 +28,9 @@ fetch(getPosts).then(
     content += '</div>' // end contentwrapper
 
   }
-
 }).catch(err => {
   // Do something with error here
   console.log('There was an error ...')
 })
+
+} // end fetchPostsx
