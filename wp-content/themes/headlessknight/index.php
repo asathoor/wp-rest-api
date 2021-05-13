@@ -1,4 +1,4 @@
 <script type="text/javascript">
   // enter your uri below
-  window.location = 'http://localhost/p/headless';
+  window.location = 'https://example.com/portfolio';
 </script>
