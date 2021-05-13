@@ -1,2 +1,3 @@
 # wp-rest-api
-Vanilla JavaScript and the WordPress REST API - made human understandable by Per Thykjaer Jensen
+
+Code for my upcoming book about the WordPress REST API.
