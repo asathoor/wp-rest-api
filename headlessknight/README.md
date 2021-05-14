@@ -1,11 +1,13 @@
 # WordPress Theme: The Headless Knight
 
+<<<<<<< HEAD
 ## A Theme for Headless WordPress
 
 ## Installation
 
 1. Zip the files.
 2. Install the Theme via the WordPress Dashboard.
+<<<<<<< HEAD
 3. Edit the URL in index.php - let it point to your portfolio.
 
 ## Edit index.php
@@ -25,3 +27,6 @@ This theme is inspired by Sufyan bin Uzayr's [article on Sitepoint: "WordPress H
 This theme is ready to go.
 
 The origin of screenshot.png is of course Aubrey Beardsley's (1878 - 1898) Salome illustrations: "The Climax". 
+=======
+3. Edit the URL in index.php - let it point to your portfolio URL.
+>>>>>>> e682a67a4585ac6bd5865ae60321bd0c272aecac
