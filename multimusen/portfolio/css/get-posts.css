@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+}

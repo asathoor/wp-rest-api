@@ -23,5 +23,3 @@ Now we don't use a theme. Everything is made by HTML, CSS and javascript.
 This theme is inspired by Sufyan bin Uzayr's [article on Sitepoint: "WordPress Headless CMS"](https://www.sitepoint.com/wordpress-headless-cms/). However Uzayr's article omits an essential point: how to set up the theme on WordPress.
 
 This theme is ready to go.
-
-The origin of screenshot.png is of course Aubrey Beardsley's (1878 - 1898) Salome illustrations: "The Climax". 
