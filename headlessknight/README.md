@@ -1,6 +1,7 @@
 # WordPress Theme: The Headless Knight
 
 <<<<<<< HEAD
+
 ## A Theme for Headless WordPress
 =======
 ## About the theme
