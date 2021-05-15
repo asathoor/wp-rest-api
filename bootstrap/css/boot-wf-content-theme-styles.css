@@ -18,6 +18,15 @@ img {
   height: auto;
 }
 
+button {
+   width: 250px;
+   margin-bottom: .2rem;
+}
+
+nav {
+  background-color: #000;
+}
+
 /* style buttons */
 
 
@@ -28,12 +37,12 @@ img {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
 /* navigation styles */
 li {
+  display: inline !important;
   list-style-type: none;
   margin:0px;
 }

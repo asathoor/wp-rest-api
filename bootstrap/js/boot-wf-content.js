@@ -78,8 +78,10 @@ contact_btn.addEventListener("click", function() {
 
       blog_roll.innerHTML += `
          <div class="posts">
-           <h2>    ${data[i].title.rendered} </h2>
-                   ${data[i].content.rendered}
+           <h5>   ${data[i].title.rendered} </h5>
+           <div>
+                  ${data[i].content.rendered}
+           </div>
          </div>
          `
     }
