@@ -2,7 +2,7 @@
 
 
 ## A Theme for Headless WordPress
-=======
+
 ## About the theme
 
 This is a blank theme for a headless WordPress site. The theme will redirect visitors to your portfolio or website index.
