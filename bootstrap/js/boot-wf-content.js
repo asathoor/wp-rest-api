@@ -16,12 +16,12 @@ function getPage(pageId) {
     console.log(data); // what's in the JSON string?
 
     // create HTML here
-    viewPosts.innerHTML = '<div>' +
-      '<h2>' + data.title.rendered + '</h2>' +
-      '<div>' +
-      data.content.rendered +
-      '</div>' +
-      '</div>'
+    viewPosts.innerHTML = `
+      <div class="post-content">
+        <h2> ${data.title.rendered}  </h2>
+        ${data.content.rendered}
+      </div>
+    `
 
   }).catch(err => {
     // Do something with error here
