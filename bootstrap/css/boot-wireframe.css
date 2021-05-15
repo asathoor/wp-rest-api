@@ -1,0 +1,46 @@
+body {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* style buttons */
+.nav_btns {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* navigation styles */
+li {
+  list-style-type: none;
+  margin:0px;
+}
+
+/* show layout */
+div, header, footer {
+  border-style: dashed;
+  border-radius: 2px;
+  border-color: green;
+}
+
+.bt {
+  color: red;
+}
