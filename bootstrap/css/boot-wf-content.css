@@ -1,3 +1,4 @@
+
 body {
   margin-top: 20px;
   margin-left: 20px;
@@ -7,13 +8,13 @@ body {
   background-color: #fff;
 }
 
-img {
-  max-width: 80%;
-  height: auto;
-}
-
 footer {
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* style buttons */
