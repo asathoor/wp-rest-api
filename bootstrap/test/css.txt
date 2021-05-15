@@ -1,0 +1,9 @@
+	<link rel='stylesheet' id='dashicons-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/dashicons.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/admin-bar.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/dist/block-library/style.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='child-theme-generator-css'  href='https://multimusen.dk/wpsandbox/wp-content/plugins/child-theme-generator/public/css/child-theme-generator-public.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='cookie-bar-css-css'  href='https://multimusen.dk/wpsandbox/wp-content/plugins/cookie-bar/css/cookie-bar.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='parente2-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/style.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='childe2-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/Pers2020Child/style.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='twentytwenty-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/Pers2020Child/style.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='twentytwenty-print-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/print.css?ver=1.0' media='print' />

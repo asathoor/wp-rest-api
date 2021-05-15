@@ -1,0 +1,8 @@
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/plugins/child-theme-generator/public/js/child-theme-generator-public.js?ver=1.0.0' id='child-theme-generator-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/plugins/cookie-bar/js/cookie-bar.js?ver=1621058916' id='cookie-bar-js-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.0' id='twentytwenty-js-js' async></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/admin-bar.min.js?ver=5.6.4' id='admin-bar-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/wp-embed.min.js?ver=5.6.4' id='wp-embed-js'></script>

@@ -1,0 +1,707 @@
+
+<!DOCTYPE html>
+
+
+
+<html class="no-js" lang="en-GB">
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- SEO tags / petj -->
+
+    <!-- WP will generate the title tag, so don't write it here -->
+
+    <!-- title>Multimusen.dk - tips, tricks & tutorials</title -->
+
+
+
+    <meta name="title" content="Multimusen.dk - tips, tricks & tutorials">
+
+    <meta name="description" content="Per&#039;s Sandbox - &#8211; Per&#039;s WP sandbox" />
+
+
+
+    <meta name="author" content="Per Thykjaer Jensen">
+
+
+
+    <!-- /SEO tags -->
+
+
+
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+
+  	    <title>Per&#039;s Sandbox &#8211; &#8211; Per&#039;s WP sandbox</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Per&#039;s Sandbox &raquo; Feed" href="https://multimusen.dk/wpsandbox/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Per&#039;s Sandbox &raquo; Comments Feed" href="https://multimusen.dk/wpsandbox/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/multimusen.dk\/wpsandbox\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/dashicons.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/admin-bar.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://multimusen.dk/wpsandbox/wp-includes/css/dist/block-library/style.min.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='child-theme-generator-css'  href='https://multimusen.dk/wpsandbox/wp-content/plugins/child-theme-generator/public/css/child-theme-generator-public.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='cookie-bar-css-css'  href='https://multimusen.dk/wpsandbox/wp-content/plugins/cookie-bar/css/cookie-bar.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='parente2-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/style.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='childe2-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/Pers2020Child/style.css?ver=5.6.4' media='all' />
+<link rel='stylesheet' id='twentytwenty-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/Pers2020Child/style.css?ver=1.0' media='all' />
+<style id='twentytwenty-style-inline-css'>
+.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #7a0928; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #7a0928; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #7a0928; }.fill-children-accent,.fill-children-accent * { fill: #7a0928; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #dd9933; }:root .has-background-background-color { background-color: #dd9933; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #332818; }:root .has-secondary-background-color { background-color: #332818; }pre,fieldset,input,textarea,table,table *,hr { border-color: #be7d1c; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #be7d1c; }.wp-block-table.is-style-stripes { border-bottom-color: #be7d1c; }.wp-block-latest-posts.is-grid li { border-top-color: #be7d1c; }:root .has-subtle-background-color { color: #be7d1c; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #e62d5e; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #e62d5e; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #0f003d; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #0f003d; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #9e90da; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #1e0099; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #1e0099; }
+</style>
+<link rel='stylesheet' id='twentytwenty-print-style-css'  href='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/print.css?ver=1.0' media='print' />
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/plugins/child-theme-generator/public/js/child-theme-generator-public.js?ver=1.0.0' id='child-theme-generator-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/plugins/cookie-bar/js/cookie-bar.js?ver=1621058916' id='cookie-bar-js-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.0' id='twentytwenty-js-js' async></script>
+<link rel="https://api.w.org/" href="https://multimusen.dk/wpsandbox/wp-json/" /><link rel="alternate" type="application/json" href="https://multimusen.dk/wpsandbox/wp-json/wp/v2/pages/2101" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://multimusen.dk/wpsandbox/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://multimusen.dk/wpsandbox/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6.4" />
+<link rel="canonical" href="https://multimusen.dk/wpsandbox/" />
+<link rel='shortlink' href='https://multimusen.dk/wpsandbox/' />
+<link rel="alternate" type="application/json+oembed" href="https://multimusen.dk/wpsandbox/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultimusen.dk%2Fwpsandbox%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://multimusen.dk/wpsandbox/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultimusen.dk%2Fwpsandbox%2F&#038;format=xml" />
+	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<style id="custom-background-css">
+body.custom-background { background-color: #dd9933; }
+</style>
+	<style media="print">#wpadminbar { display:none; }</style>
+	<style media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+			<style id="wp-custom-css">
+			/* add mapbox styles */
+@import "https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css";
+
+/* marker styles */
+#marker {
+background-image: url('https://docs.mapbox.com/mapbox-gl-js/assets/washington-monument.jpg');
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+ 
+.mapboxgl-popup {
+max-width: 200px;
+}
+		</style>
+		
+
+</head>
+
+
+
+<body data-rsssl=1 class="home page-template-default page page-id-2101 logged-in admin-bar no-customize-support custom-background wp-custom-logo wp-embed-responsive singular enable-search-modal missing-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible">
+
+
+
+    	<script>
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://multimusen.dk/wpsandbox/wp-admin/about.php'><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/about.php'>About WordPress</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://en-gb.wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://codex.wordpress.org/'>Documentation</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://wordpress.org/support/'>Support</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://multimusen.dk/wpsandbox/wp-admin/'>Per&#039;s Sandbox</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-dashboard'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/'>Dashboard</a></li></ul><ul id='wp-admin-bar-appearance' class="ab-submenu"><li id='wp-admin-bar-themes'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/themes.php'>Themes</a></li><li id='wp-admin-bar-widgets'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/widgets.php'>Widgets</a></li><li id='wp-admin-bar-menus'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/nav-menus.php'>Menus</a></li><li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/themes.php?page=custom-background'>Background</a></li></ul></div></li><li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/customize.php?url=https%3A%2F%2Fmultimusen.dk%2Fwpsandbox%2F'>Customise</a></li><li id='wp-admin-bar-updates'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/update-core.php' title='1 Plugin Update, 3 Theme Updates'><span class="ab-icon"></span><span class="ab-label">4</span><span class="screen-reader-text">1 Plugin Update, 3 Theme Updates</span></a></li><li id='wp-admin-bar-comments'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/edit-comments.php'><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://multimusen.dk/wpsandbox/wp-admin/post-new.php'><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/post-new.php'>Post</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/media-new.php'>Media</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/post-new.php?post_type=page'>Page</a></li><li id='wp-admin-bar-new-easy_charts'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/post-new.php?post_type=easy_charts'>Chart</a></li><li id='wp-admin-bar-new-petj_music_menu'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/post-new.php?post_type=petj_music_menu'>Music</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/user-new.php'>User</a></li></ul></div></li><li id='wp-admin-bar-edit'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/post.php?post=2101&#038;action=edit'>Edit Page</a></li><li id='wp-admin-bar-delete-cache'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/index.php?action=delcachepage&#038;path=%2F&#038;_wpnonce=e0aa538737' title='Delete cache of the current page'>Delete Cache</a></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://multimusen.dk/wpsandbox/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div></li><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='https://multimusen.dk/wpsandbox/wp-admin/profile.php'>Hi, <span class="display-name">per</span><img alt='' src='https://secure.gravatar.com/avatar/9805c1d97740704432e8e521bc677bec?s=26&#038;d=retro&#038;r=g' srcset='https://secure.gravatar.com/avatar/9805c1d97740704432e8e521bc677bec?s=52&#038;d=retro&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' loading='lazy'/></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='https://multimusen.dk/wpsandbox/wp-admin/profile.php'><img alt='' src='https://secure.gravatar.com/avatar/9805c1d97740704432e8e521bc677bec?s=64&#038;d=retro&#038;r=g' srcset='https://secure.gravatar.com/avatar/9805c1d97740704432e8e521bc677bec?s=128&#038;d=retro&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' loading='lazy'/><span class='display-name'>per</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-admin/profile.php'>Edit Profile</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='https://multimusen.dk/wpsandbox/wp-login.php?action=logout&#038;_wpnonce=b3883d3707'>Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="https://multimusen.dk/wpsandbox/wp-login.php?action=logout&#038;_wpnonce=b3883d3707">Log Out</a>
+					</div>
+
+		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
+
+    <header id="site-header" class="header-footer-group" role="banner">
+
+
+
+        <div class="header-inner section-inner">
+
+
+
+            <div class="header-titles-wrapper">
+
+
+
+                
+
+                <button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+
+                    <span class="toggle-inner">
+
+                        <span class="toggle-icon">
+
+                            <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)" /></svg>                        </span>
+
+                        <span class="toggle-text">Search</span>
+
+                    </span>
+
+                </button><!-- .search-toggle -->
+
+
+
+                
+
+                <div class="header-titles">
+
+
+
+                    <div class="site-logo faux-heading"><a href="https://multimusen.dk/wpsandbox/" class="custom-logo-link" rel="home" aria-current="page"><img width="84" height="65" src="https://multimusen.dk/wpsandbox/wp-content/uploads/2020/08/cropped-wordpress-logo-notext-e1598294431806.png" class="custom-logo" alt="Per&#039;s Sandbox" /></a><span class="screen-reader-text">Per&#039;s Sandbox</span></div><div class="site-description">- Per&#039;s WP sandbox</div><!-- .site-description -->
+
+                </div><!-- .header-titles -->
+
+
+
+                <button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+
+                    <span class="toggle-inner">
+
+                        <span class="toggle-icon">
+
+                            <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>                        </span>
+
+                        <span class="toggle-text">Menu</span>
+
+                    </span>
+
+                </button><!-- .nav-toggle -->
+
+
+
+            </div><!-- .header-titles-wrapper -->
+
+
+
+            <div class="header-navigation-wrapper">
+
+
+
+                
+
+                <nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
+
+
+
+                    <ul class="primary-menu reset-list-style">
+
+
+
+                        <li id="menu-item-1990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><a href="https://multimusen.dk/wpsandbox/about-2/">About</a></li>
+<li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007"><a href="https://multimusen.dk/wpsandbox/blog/">Blog</a></li>
+<li id="menu-item-2075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2075"><a href="https://multimusen.dk/wpsandbox/music/">Music</a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-1995" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1995"><a href="https://multimusen.dk/wpsandbox/music/classical/">Classical</a><span class="icon"></span>
+	<ul class="sub-menu">
+		<li id="menu-item-1996" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1996"><a href="https://multimusen.dk/wpsandbox/music/minuet/">Minuet</a></li>
+		<li id="menu-item-2026" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2026"><a href="https://multimusen.dk/wpsandbox/music/opera/">Opera</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1991" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1991"><a href="https://multimusen.dk/wpsandbox/music/rhytmical/">Rhytmical</a><span class="icon"></span>
+	<ul class="sub-menu">
+		<li id="menu-item-1992" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1992"><a href="https://multimusen.dk/wpsandbox/music/punk/">Punk</a></li>
+		<li id="menu-item-2027" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2027"><a href="https://multimusen.dk/wpsandbox/music/blues/">Blues</a></li>
+		<li id="menu-item-2028" class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2028"><a href="https://multimusen.dk/wpsandbox/music/reggae/">Reggae</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2136" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2136"><a href="#">Secrets</a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-2102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2101 current_page_item menu-item-2102"><a href="https://multimusen.dk/wpsandbox/" aria-current="page">Custom Frontpage</a></li>
+	<li id="menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2029"><a href="https://multimusen.dk/wpsandbox/2020/09/09/jquery-sample/">jQuery Sample</a></li>
+	<li id="menu-item-2137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="https://multimusen.dk/wpsandbox/elementor-2134/">Elementor: Smooth Scroll</a></li>
+	<li id="menu-item-2162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2162"><a href="https://multimusen.dk/wpsandbox/meta-box-test/">Meta Box Test</a></li>
+</ul>
+</li>
+<li id="menu-item-2258" class="menu-item menu-item-type-taxonomy menu-item-object-taxonomy menu-item-has-children menu-item-2258"><a href="https://multimusen.dk/wpsandbox/taxonomy/tutorials/">Tutorials</a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-2327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><a href="https://multimusen.dk/wpsandbox/charles-darwin/">Charles Darwin</a></li>
+</ul>
+</li>
+<li id="menu-item-2440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2440"><a href="https://multimusen.dk/wpsandbox/cv/">Resumé</a></li>
+<li id="menu-item-2277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><a href="https://multimusen.dk/wpsandbox/google-forms/">Google Forms</a></li>
+<li id="menu-item-2458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2458"><a href="https://multimusen.dk/wpsandbox/contact/">Contact</a></li>
+<li id="menu-item-2466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2466"><a href="https://multimusen.dk/wpsandbox/publications/">Publications</a></li>
+
+
+                    </ul>
+
+
+
+                </nav><!-- .primary-menu-wrapper -->
+
+
+
+                
+
+                <div class="header-toggles hide-no-js">
+
+
+
+                    
+
+                    <div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
+
+
+
+                        <button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+
+                            <span class="toggle-inner">
+
+                                <span class="toggle-text">Menu</span>
+
+                                <span class="toggle-icon">
+
+                                    <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>                                </span>
+
+                            </span>
+
+                        </button><!-- .nav-toggle -->
+
+
+
+                    </div><!-- .nav-toggle-wrapper -->
+
+
+
+                    
+
+                    <div class="toggle-wrapper search-toggle-wrapper">
+
+
+
+                        <button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+
+                            <span class="toggle-inner">
+
+                                <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)" /></svg>                                <span class="toggle-text">Search</span>
+
+                            </span>
+
+                        </button><!-- .search-toggle -->
+
+
+
+                    </div>
+
+
+
+                    
+
+                </div><!-- .header-toggles -->
+
+                
+
+            </div><!-- .header-navigation-wrapper -->
+
+
+
+        </div><!-- .header-inner -->
+
+
+
+        <div class="search-modal cover-modal header-footer-group" data-modal-target-string=".search-modal">
+
+	<div class="search-modal-inner modal-inner">
+
+		<div class="section-inner">
+
+			<form role="search" aria-label="Search for:" method="get" class="search-form" action="https://multimusen.dk/wpsandbox/">
+	<label for="search-form-1">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="search-form-1" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>
+
+			<button class="toggle search-untoggle close-search-toggle fill-children-current-color" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+				<span class="screen-reader-text">Close search</span>
+				<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>			</button><!-- .search-toggle -->
+
+		</div><!-- .section-inner -->
+
+	</div><!-- .search-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+
+    </header><!-- #site-header -->
+
+
+
+    
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
+					<span class="toggle-text">Close Menu</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="expanded-menu" aria-label="Expanded" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/about-2/">About</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/blog/">Blog</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2075"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/">Music</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2075 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1995"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/classical/">Classical</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-1995 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1996"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/minuet/">Minuet</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2026"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/opera/">Opera</a></div><!-- .ancestor-wrapper --></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1991"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/rhytmical/">Rhytmical</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-1991 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1992"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/punk/">Punk</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2027"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/blues/">Blues</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2028"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/reggae/">Reggae</a></div><!-- .ancestor-wrapper --></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2136"><div class="ancestor-wrapper"><a href="#">Secrets</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2136 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2101 current_page_item menu-item-2102"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/" aria-current="page">Custom Frontpage</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2029"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/2020/09/09/jquery-sample/">jQuery Sample</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/elementor-2134/">Elementor: Smooth Scroll</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2162"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/meta-box-test/">Meta Box Test</a></div><!-- .ancestor-wrapper --></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-taxonomy menu-item-has-children menu-item-2258"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/taxonomy/tutorials/">Tutorials</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2258 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/charles-darwin/">Charles Darwin</a></div><!-- .ancestor-wrapper --></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2440"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/cv/">Resumé</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/google-forms/">Google Forms</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2458"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/contact/">Contact</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2466"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/publications/">Publications</a></div><!-- .ancestor-wrapper --></li>
+						</ul>
+
+					</nav>
+
+					
+					<nav class="mobile-menu" aria-label="Mobile" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/about-2/">About</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/blog/">Blog</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2075"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/">Music</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2075 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1995"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/classical/">Classical</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-1995 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1996"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/minuet/">Minuet</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2026"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/opera/">Opera</a></div><!-- .ancestor-wrapper --></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-has-children menu-item-1991"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/rhytmical/">Rhytmical</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-1991 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-1992"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/punk/">Punk</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2027"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/blues/">Blues</a></div><!-- .ancestor-wrapper --></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-music menu-item-2028"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/music/reggae/">Reggae</a></div><!-- .ancestor-wrapper --></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2136"><div class="ancestor-wrapper"><a href="#">Secrets</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2136 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2101 current_page_item menu-item-2102"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/" aria-current="page">Custom Frontpage</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2029"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/2020/09/09/jquery-sample/">jQuery Sample</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/elementor-2134/">Elementor: Smooth Scroll</a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2162"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/meta-box-test/">Meta Box Test</a></div><!-- .ancestor-wrapper --></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-taxonomy menu-item-has-children menu-item-2258"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/taxonomy/tutorials/">Tutorials</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-2258 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/charles-darwin/">Charles Darwin</a></div><!-- .ancestor-wrapper --></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2440"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/cv/">Resumé</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/google-forms/">Google Forms</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2458"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/contact/">Contact</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2466"><div class="ancestor-wrapper"><a href="https://multimusen.dk/wpsandbox/publications/">Publications</a></div><!-- .ancestor-wrapper --></li>
+
+						</ul>
+
+					</nav>
+
+					
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+<main id="site-content" role="main">
+
+	
+<article class="post-2101 page type-page status-publish hentry" id="post-2101">
+
+	
+<header class="entry-header has-text-align-center header-footer-group">
+
+	<div class="entry-header-inner section-inner medium">
+
+		<h1 class="entry-title">Custom Frontpage</h1>
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<div class="wp-block-columns">
+<div class="wp-block-column">
+<p><strong>How to create a <a rel="noreferrer noopener" href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/" target="_blank">custom frontpage</a> with content. And then add some widget areas for featured content.</strong></p>
+</div>
+</div>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="WordPress: Create a Frontpage With Widget Areas" width="580" height="326" src="https://www.youtube.com/embed/EXqsy-9V9Nc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Below you see the widgets. You can style them in many ways, below you a CSS sample with a grid based layout:</p>
+
+
+
+<pre class="wp-block-code"><code>// the container class
+.fp-widget {
+	
+	background-color: pink;
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 5%;
+}
+
+// the widgets
+.frontpage-widgets {
+	border: 1px solid black;
+	font-size: small;
+	background-color: silver;
+}</code></pre>
+
+
+
+<p>And yes &#8211; probably you might want to add a few responsive @media queries. You know the drill.</p>
+
+
+
+<p></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		<div class="post-meta-wrapper post-meta-edit-link-wrapper"><ul class="post-meta"><li class="post-edit meta-wrapper"><span class="meta-icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path fill="" d="M14.7272727,11.1763636 C14.7272727,10.7244943 15.0935852,10.3581818 15.5454545,10.3581818 C15.9973239,10.3581818 16.3636364,10.7244943 16.3636364,11.1763636 L16.3636364,15.5454545 C16.3636364,16.9010626 15.2646989,18 13.9090909,18 L2.45454545,18 C1.09893743,18 0,16.9010626 0,15.5454545 L0,4.09090909 C0,2.73530107 1.09893743,1.63636364 2.45454545,1.63636364 L6.82363636,1.63636364 C7.2755057,1.63636364 7.64181818,2.00267611 7.64181818,2.45454545 C7.64181818,2.9064148 7.2755057,3.27272727 6.82363636,3.27272727 L2.45454545,3.27272727 C2.00267611,3.27272727 1.63636364,3.63903975 1.63636364,4.09090909 L1.63636364,15.5454545 C1.63636364,15.9973239 2.00267611,16.3636364 2.45454545,16.3636364 L13.9090909,16.3636364 C14.3609602,16.3636364 14.7272727,15.9973239 14.7272727,15.5454545 L14.7272727,11.1763636 Z M6.54545455,9.33890201 L6.54545455,11.4545455 L8.66109799,11.4545455 L16.0247344,4.09090909 L13.9090909,1.97526564 L6.54545455,9.33890201 Z M14.4876328,0.239639906 L17.7603601,3.51236718 C18.07988,3.83188705 18.07988,4.34993113 17.7603601,4.669451 L9.57854191,12.8512692 C9.42510306,13.004708 9.21699531,13.0909091 9,13.0909091 L5.72727273,13.0909091 C5.27540339,13.0909091 4.90909091,12.7245966 4.90909091,12.2727273 L4.90909091,9 C4.90909091,8.78300469 4.99529196,8.57489694 5.14873082,8.42145809 L13.330549,0.239639906 C13.6500689,-0.0798799688 14.1681129,-0.0798799688 14.4876328,0.239639906 Z" /></svg></span><span class="meta-text"><a href="https://multimusen.dk/wpsandbox/wp-admin/post.php?post=2101&#038;action=edit">Edit <span class="screen-reader-text">Custom Frontpage</span></a></span></li></ul><!-- .post-meta --></div><!-- .post-meta-wrapper -->
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+
+	<section id="fpWidgets">
+
+						
+	</section><!-- #fpWidgets -->
+
+</main><!-- #site-content -->
+
+
+	<div class="footer-nav-widgets-wrapper header-footer-group">
+
+		<div class="footer-inner section-inner">
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper" role="complementary">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget widget_calendar"><div class="widget-content"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar" class="wp-calendar-table">
+	<caption>May 2021</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td colspan="5" class="pad">&nbsp;</td><td>1</td><td>2</td>
+	</tr>
+	<tr>
+		<td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+	</tr>
+	<tr>
+		<td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td id="today">15</td><td>16</td>
+	</tr>
+	<tr>
+		<td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+	</tr>
+	<tr>
+		<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+	</tr>
+	<tr>
+		<td>31</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table><nav aria-label="Previous and next months" class="wp-calendar-nav">
+		<span class="wp-calendar-nav-prev"><a href="https://multimusen.dk/wpsandbox/2020/10/">&laquo; Oct</a></span>
+		<span class="pad">&nbsp;</span>
+		<span class="wp-calendar-nav-next">&nbsp;</span>
+	</nav></div></div></div><div class="widget widget_search"><div class="widget-content"><form role="search"  method="get" class="search-form" action="https://multimusen.dk/wpsandbox/">
+	<label for="search-form-2">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="search-form-2" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>
+</div></div><div class="widget widget_categories"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-223"><a href="https://multimusen.dk/wpsandbox/category/animation/" title="Create charming interactive animations with Adobe Animate.">Animation</a>
+</li>
+	<li class="cat-item cat-item-221"><a href="https://multimusen.dk/wpsandbox/category/jquery/">jQuery</a>
+</li>
+	<li class="cat-item cat-item-202"><a href="https://multimusen.dk/wpsandbox/category/musiiic/">Music</a>
+</li>
+	<li class="cat-item cat-item-208"><a href="https://multimusen.dk/wpsandbox/category/punk/">Punk</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://multimusen.dk/wpsandbox/category/uncategorised/">Uncategorised</a>
+</li>
+			</ul>
+
+			</div></div><div class="widget widget_meta"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Meta</h2>
+		<ul>
+			<li><a href="https://multimusen.dk/wpsandbox/wp-admin/">Site Admin</a></li>			<li><a href="https://multimusen.dk/wpsandbox/wp-login.php?action=logout&#038;_wpnonce=b3883d3707">Log out</a></li>
+			<li><a href="https://multimusen.dk/wpsandbox/feed/">Entries feed</a></li>
+			<li><a href="https://multimusen.dk/wpsandbox/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://en-gb.wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div></div>							</div>
+
+						
+						
+					</div><!-- .footer-widgets-wrapper -->
+
+				</aside><!-- .footer-widgets-outer-wrapper -->
+
+			
+		</div><!-- .footer-inner -->
+
+	</div><!-- .footer-nav-widgets-wrapper -->
+
+
+			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">&copy;
+							2021							<a href="https://multimusen.dk/wpsandbox/">Per&#039;s Sandbox</a>
+						</p><!-- .footer-copyright -->
+
+						<p class="powered-by-wordpress">
+							<a href="https://en-gb.wordpress.org/">
+								Powered by WordPress							</a>
+						</p><!-- .powered-by-wordpress -->
+
+					</div><!-- .footer-credits -->
+
+					<a class="to-the-top" href="#site-header">
+						<span class="to-the-top-long">
+							To the top <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-long -->
+						<span class="to-the-top-short">
+							Up <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-short -->
+					</a><!-- .to-the-top -->
+
+				</div><!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+		<!-- Cookie Bar -->
+
+<div id="eu-cookie-bar">WordPress will set a cookie from Doubleclick. It's ausmed to be a tracker. When the administrators log in we set a cookie for convenience. See <a href="https://codex.wordpress.org/Cookies">this page. <button id="euCookieAcceptWP"  style="background:#1f9e34;"  onclick="euAcceptCookiesWP();">Ok, continue</button></div>
+
+<!-- End Cookie Bar -->
+
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/admin-bar.min.js?ver=5.6.4' id='admin-bar-js'></script>
+<script src='https://multimusen.dk/wpsandbox/wp-includes/js/wp-embed.min.js?ver=5.6.4' id='wp-embed-js'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	
+	</body>
+</html>
