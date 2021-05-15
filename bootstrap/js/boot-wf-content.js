@@ -25,7 +25,7 @@ function getPage(pageId) {
 
   }).catch(err => {
     // Do something with error here
-    console.log('There was an error ...')
+    console.log('Error: could not get page')
   })
 }
 
@@ -85,7 +85,7 @@ contact_btn.addEventListener("click", function() {
     }
   }).catch(err => {
     // Do something with error here
-    console.log('Error: could not get posts ...')
+    console.log('Error: got noo posts ...')
   })
 
 })() // end fetchPostsx
