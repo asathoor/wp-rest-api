@@ -63,7 +63,6 @@ contact_btn.addEventListener("click", function() {
 /**
  * News: get new blog posts
  **/
-
 (function fetchPosts() {
 
   fetch('https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts?per_page=5').then(
@@ -87,7 +86,7 @@ contact_btn.addEventListener("click", function() {
     }
   }).catch(err => {
     // Do something with error here
-    console.log('Error: got noo posts ...')
+    console.log('Error: got no posts ...')
   })
 
 })() // end fetchPostsx
