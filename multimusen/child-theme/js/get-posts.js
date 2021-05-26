@@ -9,18 +9,20 @@ fetch(getPosts).then(
     return response.json(); // get JSON data$
   }).then(data => {
 
-  console.log(data); // what's in the JSON string?
+  // console.log(data); // what's in the JSON string?
 
   // loop out something
 
   for (let i = 0; i < data.length; i++) {
 
     viewPosts.innerHTML += '<div class="posts">' // contentwrapper
-    viewPosts.innerHTML += '<h2>' + data[i].title.rendered + '</h2>' // title
-    viewPosts.innerHTML += '<div className="posts_content">'
+    viewPosts.innerHTML += '<header><h1 class="entry-title">' + data[i].title.rendered + '</h1></header>' // title
+    viewPosts.innerHTML += '<div class="entry-content">'
     viewPosts.innerHTML += data[i].content.rendered
     viewPosts.innerHTML += '</div>' // end content
     viewPosts.innerHTML += '</div>' // end contentwrapper
+    viewPosts.innerHTML += '<hr class="whitespace">' // end contentwrapper
+    
 
   }
 

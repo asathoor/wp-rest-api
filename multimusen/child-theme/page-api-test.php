@@ -5,22 +5,9 @@
  */
 
 get_header(); ?>
-
-    <main>
-        
-    <header>
-    
-    <h1>Demo: REST API</h1>
-    
-    </header>
-
-    <article>
-
-        <!-- Posts will display below -->
-        <div id="viewPosts" style="width:550px;margin:auto;"></div>
-    
-    </article>
-    
+    <main style="margin:auto;">
+            <!-- Posts will display below -->
+            <div id="viewPosts"></div>
     </main>
 
     <!-- REST API Script (use full path here) -->

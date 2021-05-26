@@ -26,3 +26,17 @@ input {
 	width: 350px !important;
 	margin-bottom: 25px !important;
 }
+
+hr .whitespace {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+/* page: page-api-test.php */
+main {
+	width: 600px;
+}
+
+p {
+	margin-bottom: 25px;
+}
