@@ -1,0 +1,16 @@
+/**
+ * file: html-style.css
+ * purpose: styles for the pure html file
+ **/
+ 
+ header,footer {
+     background-color: #000;
+     color: #fff;
+ }
+ 
+ main, article, div {
+     width: 550px;
+ }
+ 
+ 
+ 
