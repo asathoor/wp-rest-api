@@ -17,7 +17,13 @@ Text Domain:  Multimusen
 
 /* transparent background */
 #page {
-	background-color: rgba(255, 255, 255, 0.73) !important;
+	width: 100% !important;
+	overflow: hidden;
+}
+
+#viewPosts {
+    max-width: 90%;
+    margin: auto;
 }
 
 /* Form Styles */
@@ -33,10 +39,6 @@ hr .whitespace {
 }
 
 /* page: page-api-test.php */
-main {
-	width: 600px;
-}
-
 p {
 	margin-bottom: 25px;
 }

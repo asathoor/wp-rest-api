@@ -5,7 +5,7 @@
  */
 
 get_header(); ?>
-    <main style="margin:auto;">
+    <main>
             <!-- Posts will display below -->
             <div id="viewPosts"></div>
     </main>
