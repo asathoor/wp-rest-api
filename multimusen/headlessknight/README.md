@@ -1,6 +1,6 @@
 # WordPress Theme: The Headless Knight
 
-## A Theme for Headless WordPress
+## The version for Multimusen
 
 ## Installation
 
