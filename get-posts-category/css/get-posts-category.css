@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 350px;
+}
+
+.error {
+  color:red;
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+img {
+  max-width: 80%;
+}
+
+a {
+  color: yellow;
+}
+
+a:visited {
+  color: silver;
+}
+
+a: hover {
+  color: green;
+}
