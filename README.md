@@ -8,6 +8,8 @@
 * /experiment: the path of shadows.
 * /get-page: a simple script fetching a page.
 * /get-posts: fetch and loop blog posts or news.
+* /get-category: display info about a category.
+* /get-category-posts: Filter posts by category.
 * /headlessknight: How the Knight lost his head and relocated the eye of the searcher to somewhere else (or simply: a headless WordPress theme)
 * /multimusen: experimental files, as used on my website.
 * /navigation: *navigare necesse est.*

@@ -36,6 +36,8 @@ fetch( endPoint ).then(
               ${data[i].excerpt.rendered}
             <div>
             </article>`
+
+            dataInfo.innerHTML = data[i]
         }
 }).catch(err => {
   viewPosts.innerHTML = "<span class='error'>Error.</span>"
