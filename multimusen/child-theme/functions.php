@@ -1,15 +1,35 @@
 <?php
-/*This file is part of Multimusen, twentytwentyone child theme.
-
-All functions of this file will be loaded before of parent theme functions.
-Learn more at https://codex.wordpress.org/Child_Themes.
-
-Note: this function loads the parent stylesheet before, then child theme stylesheet
-(leave it in place unless you know what you are doing.)
+/**
+ * file: functions.php
+ * purpose: add scripts, styles and functions to the theme
 */
 
 if ( ! function_exists( 'suffice_child_enqueue_child_styles' ) ) {
 	function Multimusen_enqueue_child_styles() {
+
+		// Bootstrap CDN (petj)
+		wp_enqueue_style(
+	      'Bootstrap-4-6-0-CDN-styles',
+	      'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'
+	    );
+
+		wp_enqueue_script(
+	      'Bootstrap-CDN-js',
+	      'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js',
+				array(),
+				'4.6.0',
+				true
+	    );
+
+		wp_enqueue_script(
+				'Bootstrap-CDN-js-bundle',
+				'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js',
+				array(),
+				'4.6.0',
+				true
+			);
+
+
 	    // loading parent style
 	    wp_register_style(
 	      'parente2-style',
@@ -26,5 +46,3 @@ if ( ! function_exists( 'suffice_child_enqueue_child_styles' ) ) {
 	 }
 }
 add_action( 'wp_enqueue_scripts', 'Multimusen_enqueue_child_styles' );
-
-/*Write here your own functions */

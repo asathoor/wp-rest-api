@@ -1,6 +1,6 @@
 /**
 * file: get-posts.js
-* purpuse: fecth JSON via WP REST API
+* purpose: fecth JSON via WP REST API
 **/
 
 const wpSite = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/"
