@@ -14,7 +14,6 @@ get_header();
 
     <!-- Main content -->
     <div class="col-sm-9">
-      <!-- center content -->
       <?php
       /*  the Loop (from page.php) */
       while ( have_posts() ) :
