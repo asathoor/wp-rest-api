@@ -10,9 +10,11 @@ Minimalist navigation panel. Click a button, and get the relevant information fr
 
 Only one button is active: "About Me".
 
-*By thine own ingenium create buttons according the your will ...*
+*By thine own ingenium create buttons according the your will ...* (Inspired by Perdurabo)
 
 ## Ideas for Future Development
+
+### Or: filter your content
 
 A panel like this could be relevant in a portfolio, where the content could be:
 
@@ -21,4 +23,4 @@ A panel like this could be relevant in a portfolio, where the content could be:
 * Portfolio (category = portfolio in posts)
 * News (category = news in posts)
 
-**Tip:** You can filter your content via categories, tags or taxonomies.
+**Tip:** You can filter your content if you add categories, tags and taxonomies to your posts.
