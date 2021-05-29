@@ -1,18 +1,14 @@
 <?php
 /**
- * template: for a page with the slug api-test
  * file: page-api-test
  * purpose: get blog posts via rest api on a costum page.
  */
-
 get_header(); ?>
 
-    <main>
-            <!-- Posts will display below -->
-            <div id="viewPosts"></div>
-    </main>
+	<!-- Posts will display below -->
+	<div id="viewPosts"></div>
 
-    <!-- REST API Script (use full path here) -->
-    <script src="http://multimusen.dk/wp-content/themes/Multimusen/js/get-posts.js"></script>
+    <!-- REST API Script - the WP PHP "tag" will add the path of your childtheme -->
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/get-posts.js"></script>
 
 <?php get_footer(); ?>
