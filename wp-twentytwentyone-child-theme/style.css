@@ -1,0 +1,44 @@
+/*
+Theme Name:   Multimusen
+Description:  Twentytwentyone child theme. Bastard theme experiment made by REST API and a child of twentytwentyone.
+Author:       Per Thykjaer Jensen, MA.
+Author URL:   http://www.linkedin.com/pub/per-thykjaer-jensen/2a/a50/137
+Template:     twentytwentyone
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  Multimusen
+*/
+
+/**
+ * IMPORTANT: IF YOUR STYLES DON'T WORK
+ * When fighting the original styles - use the !important rule.
+ **/
+
+/* transparent background */
+#page {
+	width: 100% !important;
+	overflow: hidden;
+}
+
+#viewPosts {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Form Styles */
+textarea, 
+input {
+	width: 350px !important;
+	margin-bottom: 25px !important;
+}
+
+hr .whitespace {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+/* page: page-api-test.php */
+p {
+	margin-bottom: 25px;
+}

@@ -1,6 +1,4 @@
-# Navigation
-
-## Case: Portfolio
+# Case: Portfolio - Navigation
 
 *Navigare necessse est*
 
@@ -21,6 +19,6 @@ A panel like this could be relevant in a portfolio, where the content could be:
 * About Me (a page)
 * Resume (a page)
 * Portfolio (category = portfolio in posts)
-* News (category = news in posts)
+* Showcase (category = showcase in posts)
 
 **Tip:** You can filter your content if you add categories, tags and taxonomies to your posts.
