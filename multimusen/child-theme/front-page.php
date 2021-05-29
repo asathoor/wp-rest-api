@@ -9,7 +9,6 @@ get_header();
 <!-- BOOTSTRAP MARKUP  BELOW -->
 <div class="container">
 
-  <!-- Nav -->
   <div class="row">
 
     <!-- Main content -->
@@ -28,28 +27,29 @@ get_header();
       ?>
     </div>
 
-    <!-- News flow -->
+    <!-- Right column: News flow -->
     <div class="col-sm-3">
-      <!-- right -->
       <h4>New Articles</h4>
+
+      <!-- REST API content below -->
       <ul id="newArt"></ul>
     </div>
-  </div>
-</div>
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
 
 <!-- /BOOTSTRAP MARKUP -->
 <script>
 /**
-* purpose: fecth JSON via WP REST API
+* purpose: fecth recent blog posts
 **/
 const wpSite = "https://multimusen.dk/wp-json/wp/v2/posts/?per_page=5"
 
 fetch( wpSite ).then(
   response => {
-    return response.json(); // get JSON data$
+    return response.json(); // get JSON data
   }).then(data => {
 
-  console.log(data); // what's in the JSON string?
+  console.log(data); // inspect in the console
 
   // loop out content
   for (let i = 0; i < data.length; i++) {
