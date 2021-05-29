@@ -2,7 +2,7 @@
 * file: get-posts.js
 * purpuse: fecth JSON via WP REST API
 **/
-const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts" // endpoint: posts
+const getPosts = "https://YOUR-DOMAIN.COM/wp-json/wp/v2/posts" // endpoint: posts
 
 fetch(getPosts).then(
   response => {
