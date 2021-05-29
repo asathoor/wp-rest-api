@@ -6,7 +6,7 @@ Since this is a child theme of Twentytwentyone it is asumed that Twentytwentyone
 
 ## functions.php
 
-*Bootstrap* css and scripts added from a CDN.
+*Bootstrap* css and scripts added from a CDN, see [here](https://github.com/asathoor/wp-rest-api/blob/main/wp-twentytwentyone-child-theme/functions.php#L10-L30).
 
 ## style.css
 
