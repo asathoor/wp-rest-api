@@ -5,7 +5,6 @@
 ## Contents
 
 * /bootstrap: REST API and Rapid Design sample.
-* /experiment: the path of shadows.
 * /get-page: a simple script fetching a page.
 * /get-posts: fetch and loop blog posts or news.
 * /get-category: display info about a category.
