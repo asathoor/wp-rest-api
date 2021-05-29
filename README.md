@@ -12,5 +12,5 @@
 * /get-category-posts: Filter posts by category.
 * /headlessknight: How the Knight lost his head and relocated the eye of the searcher to somewhere else (or simply: a headless WordPress theme)
 * /multimusen: experimental files, as used on my website.
-* /navigation: *navigare necesse est.*
+* /navigation: for the portfolio case.
 * /speed: if REST API seems slow - how to speed up things.
