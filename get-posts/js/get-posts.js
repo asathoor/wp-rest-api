@@ -26,5 +26,5 @@ fetch(getPosts).then(
 
 }).catch(err => {
   // Do something with error here
-  console.log('There was an error ...')
+  console.log('Error: ' + err)
 })

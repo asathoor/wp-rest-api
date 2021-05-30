@@ -42,4 +42,5 @@ fetch( endPoint ).then(
 }).catch(err => {
   viewPosts.innerHTML = "<span class='error'>Error.</span>"
   viewPosts.innerHTML += "<p class='error'>Endpoint: <br>" + endPoint
+  + 'Error: ' + err
 })

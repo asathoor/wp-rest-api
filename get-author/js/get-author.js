@@ -1,14 +1,18 @@
 /**
-* file: get-page.js
+* file: get-author.js
 * purpuse: fecth page JSON via WP REST API
 **/
-console.log('Hi from get-page.js')
 
-const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/pages/"
+//console.log('Hi from get-author.js')
 
-function getPage( pageId ) {
+'use strict'
 
-  fetch(getPosts + pageId ).then(
+let getAuthor = (function () {
+
+  // change this to your own domain
+  const author = "https://multimusen.dk/wp-json/wp/v2/users/1"
+
+  fetch( author ).then(
     response => {
       return response.json(); // get JSON data$
     }).then(data => {
@@ -17,9 +21,9 @@ function getPage( pageId ) {
 
     // create HTML here
     viewPosts.innerHTML = '<div>'
-    + '<h2>' + data.title.rendered + '</h2>'
-    + '<div>'
-    + data.content.rendered
+    + '<h2 class="author-title">' + data.name + '</h2>'
+    + '<div class="author-description">'
+    + data.description
     + '</div>'
     + '</div>'
 
@@ -27,6 +31,4 @@ function getPage( pageId ) {
     // Do something with error here
     console.log('Error: ' + err)
   })
-}
-
-getPage(2166) // test a page
+})()
