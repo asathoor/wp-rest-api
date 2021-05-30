@@ -10,22 +10,24 @@ function getPage(pageId) {
 
   fetch(getPosts + pageId).then(
     response => {
-      return response.json(); // get JSON data$
+      return response.json() // get JSON data$
     }).then(data => {
 
     console.log(data); // what's in the JSON string?
 
     // create HTML here
     viewPosts.innerHTML = `
-      <div class="post-content">
+      <div class="post-content-ttl">
         <h2> ${data.title.rendered}  </h2>
-        ${data.content.rendered}
+        <div class="post-content-rnd">
+          ${data.content.rendered}
+        <div>
       </div>
     `
 
   }).catch(err => {
     // Do something with error here
-    console.log('Error: could not get page')
+    console.log('Error: could not get page' + err)
   })
 }
 
@@ -33,30 +35,30 @@ function getPage(pageId) {
 getPage(2166)
 
 /**
- * Navigation
+ * Navigation Buttons
  **/
 
 // About
 about_btn.addEventListener("click", function() {
-  console.log('Detected: click')
+  console.log('About click')
   getPage(2166) // getPage( aboutPageID )
 });
 
 // Resume
 resume_btn.addEventListener("click", function() {
-  console.log('Detected: click')
+  console.log('Resumé click')
   getPage(2439) // getPage( aboutPageID )
 });
 
 // Publications
 publications_btn.addEventListener("click", function() {
-  console.log('publications: click')
+  console.log('Publications click')
   getPage(2465) // getPage( aboutPageID )
 });
 
 // Contact 2457
 contact_btn.addEventListener("click", function() {
-  console.log('publications: click')
+  console.log('Contact click')
   getPage(2457) // getPage( aboutPageID )
 });
 
@@ -77,8 +79,8 @@ contact_btn.addEventListener("click", function() {
 
       blog_roll.innerHTML += `
          <div class="posts">
-           <h5>   ${data[i].title.rendered} </h5>
-           <div>
+           <h5 class="title-rendered">   ${data[i].title.rendered} </h5>
+           <div class="content-rendered">
                   ${data[i].content.rendered}
            </div>
          </div>
@@ -86,7 +88,7 @@ contact_btn.addEventListener("click", function() {
     }
   }).catch(err => {
     // Do something with error here
-    console.log('Error: got no posts ...')
+    console.log('Error: got no posts ...' + err)
   })
 
 })() // end fetchPostsx
