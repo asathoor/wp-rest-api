@@ -13,15 +13,8 @@ if ( ! function_exists( 'suffice_child_enqueue_child_styles' ) ) {
 	      'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'
 	    );
 
-		wp_enqueue_script(
-	      'Bootstrap-CDN-js',
-	      'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js',
-				array(),
-				'4.6.0',
-				true
-	    );
 
-		wp_enqueue_script(
+            wp_enqueue_script(
 				'Bootstrap-CDN-js-bundle',
 				'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js',
 				array(),
