@@ -19,9 +19,9 @@ function getPage(pageId) {
     viewPosts.innerHTML = `
       <div class="post-content-ttl">
         <h2> ${data.title.rendered}  </h2>
-        <div class="post-content-rnd">
-          ${data.content.rendered}
         <div>
+          ${data.content.rendered}
+        </div>
       </div>
     `
 
@@ -67,7 +67,7 @@ contact_btn.addEventListener("click", function() {
  **/
 (function fetchPosts() {
 
-  fetch('https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts?per_page=5').then(
+  fetch('https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts?per_page=2').then(
     response => {
       return response.json(); // get JSON data$
     }).then(data => {
