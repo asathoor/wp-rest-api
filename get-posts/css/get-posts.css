@@ -6,4 +6,10 @@ body {
 
 img {
   max-width: 80%;
+  height: auto;
+}
+
+p {
+  width: 52rem;
+  max-width: 80%;
 }
