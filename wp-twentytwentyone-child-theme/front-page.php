@@ -30,7 +30,6 @@ get_header();
     <!-- Right column: News flow -->
     <div class="col-sm-3">
       <h4>New Articles</h4>
-
       <!-- REST API content below -->
       <ul id="newArt"></ul>
     </div>
