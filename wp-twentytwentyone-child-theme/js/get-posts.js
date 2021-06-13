@@ -16,11 +16,11 @@ fetch(getPosts).then(
   for (let i = 0; i < data.length; i++) {
 
     viewPosts.innerHTML += '<div class="posts">' // contentwrapper
-    viewPosts.innerHTML += '<h2>' + data[i].title.rendered + '</h2>' // title
-    viewPosts.innerHTML += '<div className="posts_content">'
-    viewPosts.innerHTML += data[i].content.rendered
-    viewPosts.innerHTML += '</div>' // end content
-    viewPosts.innerHTML += '</div>' // end contentwrapper
+    + '<h2>' + data[i].title.rendered + '</h2>' // title
+    + '<div className="posts_content">'
+    + data[i].content.rendered
+    + '</div>' // end content
+    + '</div>' // end contentwrapper
 
   }
 

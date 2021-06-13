@@ -21,11 +21,11 @@ fetch(getPosts).then(
   for (let i = 0; i < data.length; i++) {
 
     content += '<div class="posts">' // contentwrapper
-    content += '<h2>' + data[i].title.rendered + '</h2>' // title
-    content += '<div className="posts_content">'
-    content += data[i].content.rendered
-    content += '</div>' // end content
-    content += '</div>' // end contentwrapper
+    + '<h2>' + data[i].title.rendered + '</h2>' // title
+    + '<div className="posts_content">'
+    + data[i].content.rendered
+    + '</div>' // end content
+    + '</div>' // end contentwrapper
 
   }
 }).catch(err => {
