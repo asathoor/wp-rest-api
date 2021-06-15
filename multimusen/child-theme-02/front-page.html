@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  file: front-page.php
+  purpose: parallax-effect as splash
+  -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Per's Portfolio Sample</title>
+
+  <!-- rellax and dependencies -->
+  <link rel="stylesheet" href="node_modules/rellax/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/rellax/css/main.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/html-style.css">
+
+</head>
+
+<body>
+  <div class="ruder rellax" data-rellax-speed="5">a</div>
+  <div class="ruder rellax" data-rellax-speed="-8">b</div>
+  <div class="ruder rellax" data-rellax-speed="4">c</div>
+  <div class="ruder rellax" data-rellax-speed="-7">d</div>
+
+  <div id="viewPosts"></div>
+
+  <script src="node_modules/rellax/rellax.min.js"></script>
+  <script src="js/get-posts.js"></script>
+</body>
+
+</html>

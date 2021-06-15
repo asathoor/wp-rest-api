@@ -1,0 +1,28 @@
+{
+  "name": "child-theme-02",
+  "version": "1.0.0",
+  "description": "Parallax front-page.php",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asathoor/wp-rest-api.git"
+  },
+  "keywords": [
+    "WordPress",
+    "childtheme",
+    "REST",
+    "API"
+  ],
+  "author": "Per Thykjaer Jensen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/asathoor/wp-rest-api/issues"
+  },
+  "homepage": "https://github.com/asathoor/wp-rest-api#readme",
+  "dependencies": {
+    "rellax": "^1.12.1"
+  }
+}
