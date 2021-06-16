@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Per's Portfolio Sample</title>
+  <title>Per's Portfolio</title>
 
   <!-- rellax and dependencies -->
   <link rel="stylesheet" href="node_modules/rellax/css/bootstrap.min.css">
@@ -27,8 +27,16 @@
 
   <div id="viewPosts"></div>
 
+<script src="js/get-posts.js"></script>
   <script src="node_modules/rellax/rellax.min.js"></script>
-  <script src="js/get-posts.js"></script>
+<script>
+// front-page js initiate
+var rellax = new Rellax(
+  '.rellax',
+  { center: true }
+) // initiate rellax in .rellax members
+rellax.refresh();
+</script>
 </body>
 
 </html>

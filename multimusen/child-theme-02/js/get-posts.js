@@ -5,10 +5,6 @@
 **/
 const getPosts = "https://multimusen.dk/wp-json/wp/v2/posts" // endpoint: posts
 
-// front-page js initiate
-var rellax = new Rellax('.rellax', { center: true }) // initiate rellax in .rellax members
-rellax.refresh();
-
 // random speed
 let Speed = function(){
   return (Math.floor(Math.random()*5))+1
