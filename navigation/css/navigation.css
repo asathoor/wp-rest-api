@@ -21,8 +21,18 @@ img {
   font-size: 16px;
 }
 
+/* nav 02 */
+nav ul li a {
+  color: lime;
+}
+
 /* navigation styles */
 li {
   display: inline;
   padding: .5rem;
+}
+
+/* footer */
+footer {
+  padding-top: 35px;
 }
