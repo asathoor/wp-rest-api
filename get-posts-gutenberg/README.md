@@ -18,9 +18,11 @@ https://YOUR-SITE.COM/wp-content/plugins/editorplus/dist/gutenberg-frontend.css
 
 In this theme the gutenberg-frontend.css is a copy-paste version, so if the original is updated this vervion eventually will be deprecated.
 
-## Problem
+## Troubleshooting
 
-Strange problem: works with multimusen.dk not with multimusen.dk/wpsandbox ...
+Q: Works with multimusen.dk not with a subsite on the same domain: multimusen.dk/wpsandbox ...
+
+A: Make sure that your theme use the theme *twentytwentyone*.
 
 
 ## Findings

@@ -7,14 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- styles from editorplus plugin -->
-  <link rel="stylesheet" href="https://multimusen.dk/wpsandbox/wp-content/plugins/editorplus/dist/gutenberg-frontend.css">
+  <link rel="stylesheet" href="https://multimusen.dk/wp-content/plugins/editorplus/dist/gutenberg-frontend.css">
 
-  <link rel="stylesheet" href="css/twtwone.css">
-  <link rel="stylesheet" href="css/get-posts.css">
-  <title>Get posts and Gutenberg Styles</title>
+  <!-- link rel="stylesheet" href="css/twtwone.css" -->
+  <link rel="stylesheet" href="css/get-posts-gutenberg.css">
+
+  <title>Get posts plus the Gutenberg Styles</title>
 </head>
 
 <body>
+
+<main>
+  <section id="info">
   <h1>Get Posts</h1>
 
 <p>Experiment</p>
@@ -24,15 +28,19 @@
   <li>Get all styles for Gutenberg's blocks</li>
 </ul>
 
-  <h2>Result</h2>
+<p>
+  <em>Below - result from the API.</em>
+</p>
 
-  <hr>
-
+</section>
+<section id="from-api">
   <!-- below the content will appear -->
   <div id="viewPosts"></div>
 
   <hr>
-  <script src="js/get-posts.js"></script>
+</section>
+  </main>
+  <script src="js/get-posts-gutenberg.js"></script>
 </body>
 
 </html>

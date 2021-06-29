@@ -1,0 +1,32 @@
+body {
+  background-color: #fffbcb;
+  font-family: Helvetica, Verdana, sans;
+  line-height: 1.6;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+h1,h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: x-large;
+}
+
+main {
+  width:80%;
+  margin: auto;
+}
+
+img, iframe {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* info section */
+#info {
+  font-weight: bolder;
+  background-color: #74c87a;
+  padding: 2.1rem;
+  border: 1px dotted black;
+  border-radius: 23px;
+}
