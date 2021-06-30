@@ -1,3 +1,5 @@
+'use strict'
+
 /**
 * file: get-posts.js
 * purpuse: fecth JSON via WP REST API
