@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * file: navigation.js
+ * file: navigation-02.js
  **/
 
 // endpoints
