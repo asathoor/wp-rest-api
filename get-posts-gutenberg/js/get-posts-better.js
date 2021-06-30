@@ -8,7 +8,7 @@ const content =  viewPosts.innerHTML
 
 function fetchPosts( endpoint ) {
 
-let getPosts = wpSite + endpoint // endpoint: posts
+let getPosts = wpSite + endpoint 
 
 fetch(getPosts).then(
   response => {
