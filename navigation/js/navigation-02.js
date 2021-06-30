@@ -9,9 +9,9 @@ const getUrl = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts/"
 
 /* document ready */
 document.addEventListener("DOMContentLoaded", (event) => {
-  console.log('DOM is ready.')
+  console.log('The DOM is ready.')
 
-  // create the menu
+  // create the menu buttons
   MenuAdd('btnHome', 'Home', 'https://multimusen.dk/wpsandbox/')
   MenuAdd('btnAbout', 'About', 'https://multimusen.dk/wpsandbox/about/')
   MenuAdd('btnResume', 'Resume', 'https://multimusen.dk/wpsandbox/cv/')
