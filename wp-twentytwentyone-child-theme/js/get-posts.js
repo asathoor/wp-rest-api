@@ -5,8 +5,8 @@
 * purpuse: fecth JSON via WP REST API
 **/
 
-// define the endpoint
-const getPosts = "https://YOUR-DOMAIN.COM/wp-json/wp/v2/posts" // endpoint: posts
+// define the posts endpoint
+const getPosts = "https://YOUR-DOMAIN.COM/wp-json/wp/v2/posts" 
 
 // fetch the data from the endpoint
 fetch(getPosts).then(
