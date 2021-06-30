@@ -15,8 +15,6 @@ fetch(getPosts).then(
     return response.json(); // get JSON data$
   }).then(data => {
 
-  console.log(data); // what's in the JSON string?
-
   // loop out content
   for (let i = 0; i < data.length; i++) {
 
