@@ -1,7 +1,7 @@
 'use strict'
+
 /**
  * file: navigation.js
- * purpuse: detect a click and fetch a page
  **/
 
 // endpoints
