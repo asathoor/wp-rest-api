@@ -2,8 +2,11 @@
 * file: get-posts.js
 * purpuse: fecth JSON via WP REST API
 **/
+
+// define the endpoint
 const getPosts = "https://YOUR-DOMAIN.COM/wp-json/wp/v2/posts" // endpoint: posts
 
+// fetch the data from the endpoint
 fetch(getPosts).then(
   response => {
     return response.json(); // get JSON data$
@@ -21,6 +24,5 @@ fetch(getPosts).then(
   }
 
 }).catch(err => {
-  // Do something with error here
-  console.log('Error: ' + err)
+  console.log('Error: ' + err) // error handle
 })
