@@ -9,8 +9,6 @@ fetch(getPosts).then(
     return response.json(); // get JSON data
   }).then(data => {
 
-  console.log(data); // see what's in the JSON string?
-
   // the posts array must be looped out
   // and the data is rendered inside the HTML
   for (let i = 0; i < data.length; i++) {
