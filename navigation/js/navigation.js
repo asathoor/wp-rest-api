@@ -1,7 +1,9 @@
+'use strict'
+
 /**
 * file: navigation.js
-* purpuse: detect a click and fetch a page
 **/
+
 console.log('Hi from navigation.js')
 
 const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/pages/"
