@@ -21,6 +21,11 @@ img {
   font-size: 16px;
 }
 
+/* links */
+a {
+  color:lime;
+}
+
 /* nav 02 */
 nav ul li a {
   color: lime;

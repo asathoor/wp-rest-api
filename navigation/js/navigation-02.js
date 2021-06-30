@@ -1,53 +1,51 @@
 'use strict'
 /**
-* file: navigation.js
-* purpuse: detect a click and fetch a page
-**/
+ * file: navigation.js
+ * purpuse: detect a click and fetch a page
+ **/
 
-// posts endpoint
+// endpoints
 const getUrl = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts/"
 
-
-// add navigation items
-const navItems = [
-  `
-  <li>
-    <a href="home.html"> Home </a>
-  </li>
-  `,
-  `
-  <li>
-    <a href="resume.html"> Resume </a>
-  </li>
-  `,
-  `
-  <li>
-    <a href="about.html"> About </a>
-  </li>
-  `
-]
-
 /* document ready */
-document.body.onload = function(){
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log('DOM is ready.')
 
-  // add links to navigation
-  for (let i=0; i<navItems.length; i++){
-      topNav.innerHTML += navItems[i]
-  }
-  // load the posts in #viewPosts
-  getPosts()
+  // create the menu
+  MenuAdd('btnHome', 'Home', 'https://multimusen.dk/wpsandbox/')
+  MenuAdd('btnAbout', 'About', 'https://multimusen.dk/wpsandbox/about/')
+  MenuAdd('btnResume', 'Resume', 'https://multimusen.dk/wpsandbox/cv/')
+  MenuAdd('btnContact', 'Contact', 'https://multimusen.dk/wpsandbox/contact/')
+
+  // add content
+  GetPosts()
+});
+
+// Add buttons to the menu
+let MenuAdd = function(btnId, btnText, openUrl) {
+  return topNav.innerHTML += `
+    <li>
+      <button
+        id="${btnId}"
+        class="nav_btns"
+        onclick="location.href='${ openUrl }'">
+          ${btnText}
+      </button>
+    </li>
+  `
 }
 
-function getPosts() {
+// Get posts
+let GetPosts = function() {
 
-  fetch( getUrl ).then(
+  fetch(getUrl).then(
     response => {
       return response.json(); // get JSON data$
     }).then(data => {
 
     // add content to #viewPosts
-    for (var n = 0; n < data.length; n++){
-    viewPosts.innerHTML += `
+    for (var n = 0; n < data.length; n++) {
+      viewPosts.innerHTML += `
       <article>
         <h1> ${ data[n].title.rendered } </h1>
         <div>
@@ -55,7 +53,7 @@ function getPosts() {
         </div>
       </article>
     `
-  }
+    }
 
   }).catch(err => {
     console.log('Error: ' + err) // error message
