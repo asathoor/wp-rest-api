@@ -12,4 +12,4 @@
 * /get-category-posts: Filter posts by category.
 * /headlessknight: How the Knight lost his head and relocated the eye of the searcher to somewhere else (or for the profane: a headless WordPress theme)
 * /multimusen: REST API as used on my personal website.
-* /navigation: for the portfolio case.
+* /navigation: hardcoded and dynamic menus.
