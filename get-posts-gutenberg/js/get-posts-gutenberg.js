@@ -1,7 +1,7 @@
 'use strict'
 
 /**
-* file: get-posts.js
+* file: get-posts-gutenberg.js
 **/
 
 const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/posts" // endpoint: posts
