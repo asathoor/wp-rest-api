@@ -1,6 +1,5 @@
 /**
 * file: endpoints.js
-* purpuse: fecth JSON via WP REST API
 **/
 console.log('Hi from endpoints.js')
 
