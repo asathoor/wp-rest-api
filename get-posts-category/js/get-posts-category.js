@@ -1,13 +1,8 @@
+
+'use strict'
+
 /**
 * file: get-posts.js
-* purpuse: fecth JSON via WP REST API
-
-How: fetch posts and filter via the category name
-
-In the Dashboard edit the category, note the id here:
-https://multimusen.dk/wp-admin/term.php?taxonomy=category&tag_ID=134&post_type=post&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dcategory%26post_type%3Dpost%26s%3Dwordp
-
-The tag_ID is the number of the category.
 **/
 
 // filter
