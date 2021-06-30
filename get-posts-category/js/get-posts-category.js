@@ -2,7 +2,7 @@
 'use strict'
 
 /**
-* file: get-posts.js
+* file: get-posts-category.js
 **/
 
 // filter
