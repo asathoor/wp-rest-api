@@ -1,6 +1,5 @@
 /**
 * file: get-author.js
-* purpuse: fecth page JSON via WP REST API
 **/
 
 //console.log('Hi from get-author.js')
