@@ -1,11 +1,9 @@
-/**
-* file: navigation.js
-* purpuse: detect a click and fetch a page
-**/
-console.log('Hi from navigation.js')
+'use strict'
 
+// endpoint defined
 const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/pages/"
 
+// get page via id
 function getPage( pageId ) {
 
   fetch(getPosts + pageId ).then(
