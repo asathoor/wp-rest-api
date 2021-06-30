@@ -1,9 +1,7 @@
+'use strict'
+
 /**
 * file: get-posts.js
-* purpuse: fecth JSON via WP REST API
-
-How to get the id?
-In the Dashboard edit the category.
 **/
 
 const wpSite = "https://multimusen.dk/wp-json/wp/v2/"
