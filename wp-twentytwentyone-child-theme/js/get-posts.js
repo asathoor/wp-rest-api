@@ -2,7 +2,7 @@
 
 /**
 * file: get-posts.js
-* purpuse: fecth JSON via WP REST API
+* purpose: show post titles and content
 **/
 
 // define the posts endpoint
