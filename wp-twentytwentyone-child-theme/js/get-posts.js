@@ -9,10 +9,6 @@ fetch(getPosts).then(
     return response.json(); // get JSON data$
   }).then(data => {
 
-  console.log(data); // what's in the JSON string?
-
-  // loop out something
-
   for (let i = 0; i < data.length; i++) {
 
     viewPosts.innerHTML += '<div class="posts">' // contentwrapper
