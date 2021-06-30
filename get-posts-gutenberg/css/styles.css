@@ -1,0 +1,43 @@
+/**
+ * file: style.css
+**/
+
+/* prepare */
+* {
+  margin: 0px 0px 0px 0px;
+  background-color: #c6ceff;
+  color: #000;
+}
+
+/* header and footer */
+header,
+footer,
+header h1,
+header h2 {
+  background-color: #000;
+  color: lime;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* content area */
+main,
+article {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+/* headings */
+h1,
+h2 {
+  color: purple;
+}
+
+/* images */
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -28,4 +28,4 @@ A: Make sure that your theme use the theme *twentytwentyone*.
 ## Findings
 
 * twtwone.css = optional theme styles.
-* gutenberg-frontend.css = add the blockbuilder styles.
+* gutenberg-frontend.css = the blockbuilder styles.
