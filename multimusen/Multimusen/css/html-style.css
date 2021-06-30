@@ -1,0 +1,39 @@
+/**
+ * file: html-style.css
+ * purpose: styles for the pure html file
+ **/
+ 
+
+ 
+ header,footer {
+     background-color: #000;
+     color: #fff;
+ }
+ 
+ /*
+ main, article, div {
+     width: 550px;
+ }
+ */
+ 
+ #page {
+     max-width: 100%;
+     overflow: hidden;
+ }
+ 
+ #primary {
+     max-width: 100%;
+     overflow: hidden;
+      margin-top: 0px;
+  margin-bottom:0px;
+  margin-right: 0px;
+  margin-left: 0px;
+ }
+ 
+ /* responsive trick */
+ img, iframe, canvas, p {
+     max-width: 100% !important;
+ }
+ 
+ 
+ 
