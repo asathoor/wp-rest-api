@@ -18,11 +18,6 @@ fetch( endPoint ).then(
       return response.json(); // get JSON data
     }).then(data => {
 
-        console.log( data ); // test
-
-
-        // loop out content
-
         for (let i = 0; i < data.length; i++) {
 
           // links to posts
