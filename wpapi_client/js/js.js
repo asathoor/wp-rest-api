@@ -1,20 +1,8 @@
-# WPAPI Client
+/**
+ * project: wpapi test
+ * documentation: https://github.com/WP-API/node-wpapi#using-the-client
+ **/
 
-WPAPI and Vanilla JavaScript.
-
-## Discussion
-
-Ease of use - however, with a steep learning curve. The documentation could be better. The average web user may have a hard time figuring out which files to use.
-
-## Where are the correct scripts?
-
-* /node_modules/wpapi/browser/wpapi.min.js
-
-## Usage: Posts
-
-Here is a working sample for recent posts with promises and an error catch:
-
-~~~~
 // Create WPAPI instance and add endpoint to /wp-json
 const wp = new WPAPI({
   endpoint: 'https://multimusen.dk/wpsandbox/wp-json',
@@ -45,4 +33,3 @@ wp
   .catch(function(err) {
     console.log(err)
   });
-~~~~

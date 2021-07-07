@@ -1,7 +1,7 @@
 {
   "name": "wpapi_client",
   "version": "1.0.0",
-  "description": "Testing the client.",
+  "description": "WPAPI and Vanille JavaScript. The subject is not well documented online.",
   "main": "index.js",
   "dependencies": {
     "wpapi": "^1.2.2"
