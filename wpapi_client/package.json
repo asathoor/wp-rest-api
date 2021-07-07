@@ -1,0 +1,25 @@
+{
+  "name": "wpapi_client",
+  "version": "1.0.0",
+  "description": "Testing the client.",
+  "main": "index.js",
+  "dependencies": {
+    "wpapi": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Per Thykjaer Jensen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asathoor/wp-rest-api/tree/main/wpapi_client"
+  },
+  "keywords": [
+    "wpapi",
+    "rest",
+    "api",
+    "wordpress"
+  ]
+}
