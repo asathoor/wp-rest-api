@@ -2,6 +2,16 @@
 
 WPAPI and Vanilla JavaScript.
 
+## Installation
+
+In your terminal do this:
+
+~~~~
+npm install
+~~~~
+
+The command will download the necessary npm modules. The WPAPI files are in node_modules/wpapi/
+
 ## Discussion
 
 Ease of use - however, with a steep learning curve. The documentation could be better. The average web user may have a hard time figuring out which files to use.
