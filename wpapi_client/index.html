@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WPPAPI - an API for an API</title>
+</head>
+
+<body>
+
+  <h1>APAPI</h1>
+  <p>
+    All about the <a href="https://github.com/WP-API/node-wpapi#using-the-client">WPAPI Client here</a>
+  </p>
+
+  <!-- posts will appear below -->
+  <div id="viewPosts"></div>
+
+  <!-- load wpapi -->
+  <script src="node_modules/wpapi/browser/wpapi.min.js"></script>
+
+  <!-- use wpapi -->
+  <script>
+    /**
+     * project: wpapi test
+     * documentation: https://github.com/WP-API/node-wpapi#using-the-client
+     **/
+
+    // Create WPAPI instance and add endpoint to /wp-json
+    const wp = new WPAPI({
+      endpoint: 'https://multimusen.dk/wpsandbox/wp-json',
+    });
+
+    // Request methods return Promises.
+    wp
+    .posts()
+    .perPage(7)
+    .get()
+
+    .then(function(data) {
+        // do something with the returned posts
+        // console.log(data)
+
+        for (i = 0; i < data.length; i++) {
+          viewPosts.innerHTML += `
+          <article>
+            <h1> ${data[i].title.rendered} </h1>
+            <div class="content">
+              ${data[i].content.rendered}
+            </div>
+          </article>
+          ` }
+
+      })
+
+      .catch(function(err) {
+        console.log(err)
+      });
+  </script>
+</body>
+
+</html>
