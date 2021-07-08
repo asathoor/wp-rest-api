@@ -12,6 +12,8 @@ npm install
 
 The command will download the necessary npm modules. The WPAPI files are in node_modules/wpapi/
 
+NB: in order to run the command you must install nodejs first.
+
 ## Discussion
 
 Ease of use - however, with a steep learning curve. The documentation could be better. The average web user may have a hard time figuring out which files to use.

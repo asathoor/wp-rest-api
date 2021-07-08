@@ -4,6 +4,7 @@
   "description": "WPAPI and Vanille JavaScript. The subject is not well documented online.",
   "main": "index.js",
   "dependencies": {
+    "mdb-ui-kit": "^3.8.1",
     "wpapi": "^1.2.2"
   },
   "devDependencies": {},
