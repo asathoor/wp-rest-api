@@ -18,50 +18,20 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="node_modules/mdb-ui-kit/css/mdb.min.css" />
+  <!-- Other Styles -->
+  <link rel="stylesheet" href="css/css.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Container wrapper -->
-    <div class="container-fluid">
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
+  <div id="navigation"></div>
 
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img src="https://multimusen.dk/wp-content/uploads/cropped-cropped-cropped-multimusen-150-150-1.png" height="35" alt="" loading="lazy" />
-        </a>
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#centerText">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#leftText">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#rightText">Gigs</a>
-          </li>
-        </ul>
-        <!-- Left links -->
-      </div>
-      <!-- Collapsible wrapper -->
-      <!-- Container wrapper -->
-  </nav>
-  <!-- /Navbar -->
-
-  <header class="jumbotron">
+  <header class="mt-3 mb-3">
     <h1 class="display-1 text-center">Die Alpenhornistin Portfolio</h1>
   </header>
 
 
-  <main class="container px-23">
+  <main class="container px-3 mt-3">
 
     <!-- Carousel wrapper -->
     <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
@@ -115,12 +85,7 @@
     </div>
     <!-- Carousel wrapper -->
 
-    <!-- whitespace -->
-    <div class="col-12">
-      <div class="col-12 p-4"></div>
-    </div>
-
-    <div class="row gx-10">
+    <div class="row gx-10 m-5">
 
       <!-- left text -->
       <div id="leftText" class="col-sm-12 col-lg-3"></div>
@@ -130,81 +95,19 @@
 
       <!-- right text -->
       <div id="rightText" class="col-lg-3 col-sm-12"></div>
+
+      <!-- SoMe -->
+      <div id="SoMe" class="col-12 text-center"></div>
     </div>
   </main>
 
-  <!-- white space -->
-  <div class="p-3"></div>
-
-
-  <div id="SoMe" class="col-12 text-center">
-    <!-- Facebook -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-    <!-- Twitter -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-    <!-- Instagram -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-    <!-- Linkedin -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-    <!-- Youtube -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-youtube"></i></a>
-
-    <!-- Slack -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-slack-hash"></i></a>
-
-    <!-- Github -->
-    <a class="btn btn-primary" style="background-color: #000;" href="#!" role="button"><i class="fab fa-github"></i></a>
-
-  </div>
-
-  <!-- white space -->
-  <div class="p-3"></div>
-
-
-  <footer class="text-center">
-    &copy; Jane Doe, 2021 - all rigths reserved. <br>
-    Jane Doe, Abbey Rd. 123, Liverpool, Mob. 123 456
-  </footer>
+  <footer id="JDfooter" class="text-center m-3"></footer>
 
   <!-- MDB -->
   <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script>
-    // add content from WordPress
-    function getPage(pageId, viewIn) {
 
-      const getPosts = "https://multimusen.dk/wpsandbox/wp-json/wp/v2/pages/"
-
-      fetch(getPosts + pageId).then(
-        response => {
-          return response.json(); // get JSON data$
-        }).then(data => {
-
-        // create a view here
-        let showHere = document.getElementById( viewIn )
-
-        // create HTML here
-        showHere.innerHTML += '<article>' +
-          '<h2>' + data.title.rendered + '</h2>' +
-          '<div>' +
-            data.content.rendered +
-          '</div>' +
-          '</article>'
-
-      }).catch(err => {
-        console.log(err)
-      })
-    }
-
-    // view content
-    getPage(2714, 'leftText')
-    getPage(2693, 'centerText')
-    getPage(2720, 'rightText')
-  </script>
+  <!-- fetch content -->
+  <script src="js/jane-doe-alpenhornistin.js"></script>
 </body>
 
 </html>
