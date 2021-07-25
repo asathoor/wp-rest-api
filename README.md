@@ -14,3 +14,7 @@
 * /headlessknight: How the Knight lost his head and relocated the eye of the searcher to somewhere else (or for the profane: a headless WordPress theme)
 * /multimusen: REST API as used on my personal website.
 * /navigation: hardcoded and dynamic menus.
+
+## New Book: "Headless WordPress"
+
+All the code samples you see here are explained in depth in my new book ["Headless WordPress"](https://headless.multimusen.dk).
