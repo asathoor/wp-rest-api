@@ -1,6 +1,6 @@
 # WordPress REST API
 
-**Code for my book about the WordPress REST API. Click [here](https://www.lulu.com/en/en/shop/per-skolander-thykjaer-jensen/beginning-headless-wordpress/ebook/product-me8yg8.html?page=1&pageSize=4) to buy the book. Here and now the code is work in progress. Don't expect things to work out of the box.**
+**Here are the code samples for my book about the WordPress REST API. Click [here](https://www.lulu.com/en/en/shop/per-skolander-thykjaer-jensen/beginning-headless-wordpress/ebook/product-me8yg8.html?page=1&pageSize=4) to buy the book. Here and now the code is work in progress. Don't expect things to work out of the box.**
 
 
 ## Contents
